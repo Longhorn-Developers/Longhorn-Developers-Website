@@ -1,5 +1,5 @@
 coverage/
-types/
+/types/
 
 .turbo
 .nitro
