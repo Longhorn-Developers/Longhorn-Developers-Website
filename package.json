@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
     "@solidjs/router": "^0.13.1",
@@ -18,5 +20,17 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@unocss/eslint-config": "^0.58.6",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import-essentials": "^0.2.1",
+    "eslint-plugin-jsdoc": "^48.2.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react-prefer-function-component": "^3.3.0",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "eslint-plugin-solid": "^0.13.2",
+    "prettier": "3.2.5"
   }
 }
