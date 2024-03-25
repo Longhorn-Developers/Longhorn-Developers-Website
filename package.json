@@ -1,5 +1,7 @@
 {
-  "name": "example-with-unocss",
+  "name": "Longhorn-Developers-Website",
+  "version": "0.1.0",
+  "description": "Longhorn Developers Website",
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
